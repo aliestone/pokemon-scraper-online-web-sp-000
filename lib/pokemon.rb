@@ -16,6 +16,6 @@ class Pokemon
   found_pokemon = db.execute("SELECT * FROM pokemon WHERE id =?;", id)
   end
     #find pokemon by id
-    #return a new pokemon object 
+    #return a new pokemon object
 
 end
